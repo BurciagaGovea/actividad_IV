@@ -23,7 +23,7 @@ Esta aplicación web presenta de forma dinámica, responsiva y accesible la info
 
 ## Despliegue en Vivo
 
-Enlace a la versión desplegada: *[https://github.com/BurciagaGovea.io/actividad_IV](https://github.com/BurciagaGovea.io/actividad_IV)*
+Enlace a la versión desplegada: *[https://burciagagovea.github.io/actividad_IV/](https://burciagagovea.github.io/actividad_IV/)*
 
 ## Estructura de Archivos
 
