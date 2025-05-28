@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Equipo y Pasatiempos</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <div class="header-container">
+          <a href="#" class="logo">Mi WebApp</a>
+          <button class="menu-toggle" aria-label="Abrir menú">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+          <nav class="nav">
+            <ul>
+              <li><a href="#member1">Integrante 1</a></li>
+              <li><a href="#member2">Integrante 2</a></li>
+              <li><a href="#member3">Integrante 3</a></li>
+              <li><a href="#member4">Integrante 4</a></li>
+              <li><a href="#contact">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      
+
+  <main>
+    <section id="member1">
+      <article>
+        <img src="./img/a.png" alt="Avatar Integrante 1" />
+        <h2>Alejandro Puentes de Busk</h2>
+        <p class="bio">Alejandro es un chico tranquilo que vive entre líneas de código, pesa barras en el gimnasio y sigue de cerca cada novedad tecnológica.</p>
+        <div class="toggle-container">
+            <button class="toggle-btn" aria-expanded="false">
+              Mostrar Pasatiempos
+            </button>
+            <ul class="hobbies">
+              <li>Traicionar gente</li>
+              <li>Levantar fierros</li>
+            </ul>
+          </div>
+      </article>
+    </section>
+
+    <section id="member2">
+        <article>
+          <img src="./img/image copy.png" alt="Avatar Integrante 1" />
+          <h2>Michelle Córdova Torres</h2>
+          <p class="bio">Michelle es una chica amable y graciosa, que no soporta la programación y prefiere descifrar los enigmas del mundo real.</p>
+          <div class="toggle-container">
+              <button class="toggle-btn" aria-expanded="false">
+                Mostrar Pasatiempos
+              </button>
+              <ul class="hobbies">
+                <li>Leer</li>
+                <li>Ver k-dramas cursis</li>
+              </ul>
+            </div>
+        </article>
+    </section>
+    
+    <section id="member3">
+        <article>
+          <img src="./img/image copy 4.png" alt="Avatar Integrante 1" />
+          <h2>Adriana Alejandra Colín Muñoz</h2>
+          <p class="bio">Adriana no tolera rivales: cuando Francisco se interpuso en su camino, lo dio de baja sin dudar.</p>
+          <div class="toggle-container">
+              <button class="toggle-btn" aria-expanded="false">
+                Mostrar Pasatiempos
+              </button>
+              <ul class="hobbies">
+                <li>Llegar tarde</li>
+                <li>Dar gente de baja</li>
+              </ul>
+            </div>
+        </article>
+    </section>
+  
+    <section id="member4">
+          <article>
+            <img src="./img/image copy 2.png" alt="Avatar Integrante 1" />
+            <h2>Edson Rodrigo Burciaga Govea</h2>
+            <p class="bio">Experto en Linux. Su sentido de la responsabilidad le obliga a cumplir siempre con cada tarea encomendada.</p>
+            <div class="toggle-container">
+                <button class="toggle-btn" aria-expanded="false">
+                  Mostrar Pasatiempos
+                </button>
+                <ul class="hobbies">
+                  <li>Jugar brawl stars</li>
+                  <li>Platicar</li>
+                </ul>
+              </div>
+          </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contacto</h2>
+      <form id="contactForm" novalidate>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email"
+               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+               required />
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Dagonline. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
